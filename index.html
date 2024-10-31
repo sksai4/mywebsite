@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Krishna's Personal Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Background image styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://yourimageurl.com/image.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #fff;
+           
+        }
+        
+        .navbar, footer {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        
+        .container {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .nav-link {
+            color: #fff;
+        }
+        .nav-link:hover {
+            color: #007bff;
+        }
+        
+        footer {
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            /* Removed position fixed here */
+        }
+
+        .form-control.error {
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">Sai Krishna</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="container text-center">
+    <h1>Welcome to My Personal Website</h1>
+    <p>Hello! I’m Sai Krishna, a web developer passionate about coding and creating responsive websites.</p>
+</section>
+
+<!-- About Section -->
+<section id="about" class="container mt-5">
+    <h2>About Me</h2>
+    <p>I am a web developer with a focus on HTML, CSS, JavaScript, and the MERN stack. I am constantly learning and developing my skills to build better web applications.</p>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="container mt-5">
+    <h2>Portfolio</h2>
+    <p>Here are some projects I have worked on:</p>
+    <ul>
+        <li>Project 1: Responsive website for a small business</li>
+        <li>Project 2: Personal portfolio with React and Node.js</li>
+        <li>Project 3: JavaScript game using DOM manipulation</li>
+    </ul>
+</section>
+
+<!-- Blog Section -->
+<section id="blog" class="container mt-5">
+    <h2>Blog</h2>
+    <p>Sharing my thoughts on web development, learning, and technology.</p>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container mt-5">
+    <h2>Contact Me</h2>
+    <form id="contactForm" action="https://formspree.io/f/mbljgdkv" method="POST">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+    
+</section>
+
+
+<!-- Social Media Links -->
+<section class="container mt-5">
+    <h2>Connect with Me</h2>
+    <p>
+        |
+        <a href="https://www.linkedin.com/in/sai-krishna-349231275" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/sksai4" target="_blank">GitHub</a>
+    </p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 Sai Krishna. All Rights Reserved.</p>
+</footer>
+<script src="validation.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+   
+
+</body>
+</html>
